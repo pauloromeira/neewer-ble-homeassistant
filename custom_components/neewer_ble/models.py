@@ -69,6 +69,7 @@ SUPPORTED_MODELS: dict[str, ModelInfo] = {
     # Light wands - Standard protocol
     "RGB1": ModelInfo("RGB1", True, (3200, 5600), False, 0),
     "TL60": ModelInfo("TL60 RGB", True, (2700, 6500), False, 0),
+    "TL97C": ModelInfo("TL97C RGB", True, (2500, 8500), False, 2),
 }
 
 UNKNOWN_MODEL = ModelInfo("Unknown", False, (3200, 5600), False, 0)
